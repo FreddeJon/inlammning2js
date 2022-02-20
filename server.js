@@ -17,10 +17,11 @@ app.get("/", (req, res) => {
 app.get("/news/:id", (req, res) => {
   const { id } = req.params;
   const currentNews = news.find((x) => x.id == id);
-  if (!currentNews) {
-    res.redirect("*");
+  if (currentNews === undefined) {
+    res.redirect("/*");
+  } else {
+    res.render("news", { page: "News", ...currentNews });
   }
-  res.render("news", { page: "News", ...currentNews });
 });
 
 app.get("/contact", (req, res) => {
@@ -35,8 +36,8 @@ app.get("/api/products", (req, res) => {
   res.json(products);
 });
 
-app.get("*", (req, res) => {
-  res.render("notfound", { page: "Not Found" });
+app.get("/*", (req, res) => {
+  res.status(404).render("notfound", { page: "Not Found" });
 });
 app.listen(port, () => {
   console.log(`Server started at: http://localhost:${port}`);
