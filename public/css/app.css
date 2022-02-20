@@ -276,7 +276,7 @@ body {
   .nav-menu li {
     display: block;
   }
-  .nav-menu li:nth-last-child() {
+  .nav-menu ul:nth-last-child() {
     margin: 0 100px 0 auto;
   }
 
