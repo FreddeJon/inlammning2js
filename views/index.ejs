@@ -1,9 +1,9 @@
 <%- include('./partials/head') %>
 <main class="main-content">
   <section class="homepage-container">
-    <h1 class="homepage-title">News</h1>
-    <% for(const currentNews of news) { %> 
-    <%- include('./partials/news-card', { ...currentNews }) %> <% } %>
+    <h1 class="homepage-title title">News</h1>
+    <% for(const currentNews of news) { %> <%- include('./partials/news-card', {
+    ...currentNews }) %> <% } %>
   </section>
 </main>
 <%- include('./partials/footer') %>

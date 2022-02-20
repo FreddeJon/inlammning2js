@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 
 :root {
-  --border: 1px solid rgb(241, 241, 241);
+  --border-color: rgb(241, 241, 241);
+  --border: 1px solid var(--border-color);
 }
 
 * {
@@ -49,7 +50,7 @@ body {
   transition: all ease 0.1s;
 }
 
-.nav-icon:hover {
+.nav-icon box-icon:hover {
   transform: scale(1.3);
   opacity: 0.6;
 }
@@ -86,9 +87,20 @@ body {
   display: block;
 }
 
+.cross {
+  display: none;
+}
+
+.nav-checkbox:checked ~ .nav-toggle .nav-icon .cross {
+  display: block;
+}
+
+.nav-checkbox:checked ~ .nav-toggle .nav-icon .burger {
+  display: none;
+}
+
 .main-content {
   grid-area: main;
-  padding: 0 100px;
 }
 
 .homepage-container {
@@ -104,6 +116,9 @@ body {
 
 .homepage-title {
   margin: 20px 0;
+}
+
+.title {
   font-weight: lighter;
   font-size: 36px;
 }
@@ -130,25 +145,11 @@ body {
   transform: rotate(3turn);
 }
 
-@media only screen and (min-width: 600px) {
-  .nav-toggle {
-    display: none;
-  }
-
-  .nav-menu {
-    flex-direction: row;
-    gap: 70px;
-  }
-
-  .nav-menu li {
-    display: block;
-  }
-}
-
 /* NEWS CARD */
 .news-card {
   height: 180px;
-  width: 400px;
+  width: 80%;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   border: var(--border);
@@ -198,4 +199,91 @@ body {
 .news-card-link:hover {
   opacity: 1;
   text-decoration: underline;
+}
+
+/* NEWS CARD END */
+
+/* CONTACT FORM START */
+.contact-form-container {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.contact-form-container h1 {
+  margin: 50px 0;
+}
+.contact-form {
+  width: 80%;
+  max-width: 500px;
+  margin: auto auto;
+
+  display: grid;
+  grid-template-areas:
+    "name"
+    "email"
+    "errand"
+    "message"
+    "button";
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: var(--border);
+}
+.contact-form .form-name {
+  grid-area: name;
+}
+.contact-form .form-email {
+  grid-area: email;
+}
+.contact-form .form-errand {
+  grid-area: errand;
+}
+.contact-form .form-message {
+  grid-area: message;
+  resize: none;
+}
+.contact-form .form-submit {
+  grid-area: button;
+  padding: 5px 10px;
+  width: 100px;
+  margin: 0 20px 0 auto;
+}
+
+.container {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.products-table-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-menu {
+    flex-direction: row;
+    gap: 70px;
+  }
+
+  .nav-menu li {
+    display: block;
+  }
+
+  .contact-form {
+    grid-template-areas:
+      "name email"
+      "errand errand"
+      "message message"
+      "button button";
+
+    grid-template-columns: 1fr 1fr;
+  }
 }
