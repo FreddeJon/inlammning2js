@@ -10,7 +10,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  overflow-y: scroll;
+}
 body {
   font-family: "Roboto", sans-serif;
 
@@ -260,7 +262,12 @@ body {
 
 .products-table-container {
   width: 100%;
+  max-width: 800px;
   margin: 0 auto;
+}
+
+.display {
+  width: calc(100% - 2px) !important;
 }
 
 .privacy-page-container {
@@ -272,8 +279,7 @@ body {
   overflow: auto;
   word-wrap: break-word;
 }
-.wrapper {
-}
+
 .privacy-page-container p {
   word-break: break-all;
 }
@@ -301,7 +307,5 @@ body {
       "errand errand"
       "message message"
       "button button";
-
-    grid-template-columns: 1fr 1fr;
   }
 }
