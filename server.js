@@ -36,6 +36,10 @@ app.get("/api/products", (req, res) => {
   res.json(products);
 });
 
+app.get("/privacy", (req, res) => {
+  res.render("privacy", { page: "Privacy" });
+});
+
 app.get("/*", (req, res) => {
   res.status(404).render("notfound", { page: "Not Found" });
 });
