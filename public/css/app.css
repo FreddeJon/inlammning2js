@@ -169,7 +169,7 @@ body {
 }
 .news-card-date {
   flex: 1;
-  margin-right: left;
+  margin-left: auto;
 }
 
 .news-card-title {
