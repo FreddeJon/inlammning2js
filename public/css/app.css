@@ -156,6 +156,7 @@ body {
 
 /* NEWS CARD */
 .news-card {
+  position: relative;
   height: 180px;
   width: 80%;
   max-width: 500px;
@@ -191,7 +192,6 @@ body {
   font-size: 15px;
   height: 100%;
   width: 100%;
-  position: relative;
   padding: 5px 20px;
   overflow: auto;
 }
@@ -204,7 +204,7 @@ body {
   opacity: 0.6;
   color: inherit;
   bottom: 6px;
-  right: 8px;
+  right: 17px;
 }
 
 .news-card-link:hover {
@@ -327,6 +327,9 @@ body {
   }
   .nav-menu li:last-child {
     margin: 0 auto 0 0;
+  }
+  .nav-menu li:nth-child(2) {
+    margin: 0 0 0 0;
   }
 
   .contact-form {
