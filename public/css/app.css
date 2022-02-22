@@ -272,17 +272,16 @@ body {
 
 .privacy-page-container {
   width: 100vw;
-  margin: 0 auto;
-  padding: 0 30px;
+  margin: 10px auto;
+  padding: 20px 30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   overflow: auto;
-  word-wrap: break-word;
 }
 
-.privacy-page-container p {
-  word-break: break-all;
+.privacy-page-container li {
+  margin-left: 15px;
 }
 
 @media only screen and (min-width: 600px) {
