@@ -1,37 +1,42 @@
 const news = [
   {
     id: 1,
-    title: "Ny kund idag",
-    teaserText: "1Hmmmm maybe this works",
-    text: " it outmmmm maybe this works i dont know lets try it out",
+    title: "Lorem ipsum",
+    teaserText:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis, aspernatur quibusdam ab, repellat modi sapiente natus perferendis deleniti, vel qui molestiae. Tempore quam, saepe, corrupti reiciendis quos cum rem quia eos ad molestiae accusantium impedit vel, nam nostrum harum?",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam placeat cupiditate corrupti tenetur possimus fugiat laudantium, eos odio sapiente labore, officia fuga nemo repudiandae accusantium explicabo saepe et sed omnis quas mollitia voluptas pariatur molestiae! Ad, non. Illum, sapiente mollitia. Animi laudantium rem, molestiae doloribus eligendi nemo. Veritatis odit optio nobis. Hic natus suscipit nobis possimus officiis consectetur dignissimos illum! Accusantium quo repellat aut commodi libero in earum laboriosam aperiam atque. Odio nihil dolor ea fuga consequuntur eius ipsum omnis incidunt ab molestias dignissimos, illo vel maxime exercitationem asperiores quis. Necessitatibus voluptate excepturi est delectus sit eius reiciendis, fugiat perferendis voluptatem. Magni ad dolore dignissimos voluptatum numquam reiciendis beatae labore corporis minus at ipsam vitae illo quae cum, excepturi odio repudiandae quaerat adipisci quas dolores incidunt sed earum fuga vero? Quasi tenetur facilis tempore delectus harum, earum officia alias dicta aliquid quis esse quaerat eius quisquam totam magnam ratione, in placeat nesciunt vero doloremque exercitationem cupiditate quibusdam laborum culpa? Praesentium rerum dolorum tenetur earum molestiae obcaecati qui nulla, autem eaque distinctio aspernatur impedit quas. Illo porro et quisquam accusantium laboriosam excepturi praesentium autem, ipsam dolorum ducimus beatae pariatur aliquam consectetur error at provident sequi expedita minima architecto numquam, ratione corporis!",
     date: "2022/01/12",
   },
   {
     id: 2,
-    title: "New customer igrå",
-    teaserText: "2Hmmmm maybe this works",
-    text: "Hmmmm maybe this works",
+    title: "Lorem ipsum",
+    teaserText:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis, aspernatur quibusdam ab, repellat modi sapiente natus perferendis deleniti, vel qui molestiae. Tempore quam, saepe, corrupti reiciendis quos cum rem quia eos ad molestiae accusantium impedit vel, nam nostrum harum?",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam placeat cupiditate corrupti tenetur possimus fugiat laudantium, eos odio sapiente labore, officia fuga nemo repudiandae accusantium explicabo saepe et sed omnis quas mollitia voluptas pariatur molestiae! Ad, non. Illum, sapiente mollitia. Animi laudantium rem, molestiae doloribus eligendi nemo. Veritatis odit optio nobis. Hic natus suscipit nobis possimus officiis consectetur dignissimos illum! Accusantium quo repellat aut commodi libero in earum laboriosam aperiam atque. Odio nihil dolor ea fuga consequuntur eius ipsum omnis incidunt ab molestias dignissimos, illo vel maxime exercitationem asperiores quis. Necessitatibus voluptate excepturi est delectus sit eius reiciendis, fugiat perferendis voluptatem. Magni ad dolore dignissimos voluptatum numquam reiciendis beatae labore corporis minus at ipsam vitae illo quae cum, excepturi odio repudiandae quaerat adipisci quas dolores incidunt sed earum fuga vero? Quasi tenetur facilis tempore delectus harum, earum officia alias dicta aliquid quis esse quaerat eius quisquam totam magnam ratione, in placeat nesciunt vero doloremque exercitationem cupiditate quibusdam laborum culpa? Praesentium rerum dolorum tenetur earum molestiae obcaecati qui nulla, autem eaque distinctio aspernatur impedit quas. Illo porro et quisquam accusantium laboriosam excepturi praesentium autem, ipsam dolorum ducimus beatae pariatur aliquam consectetur error at provident sequi expedita minima architecto numquam, ratione corporis!",
     date: "2022/01/12",
   },
   {
     id: 3,
-    title: "New Customer",
-    teaserText: "3Hmmmm maybe this works",
-    text: "Hmmmm maybe this works",
+    title: "Lorem ipsum",
+    teaserText:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis, aspernatur quibusdam ab, repellat modi sapiente natus perferendis deleniti, vel qui molestiae. Tempore quam, saepe, corrupti reiciendis quos cum rem quia eos ad molestiae accusantium impedit vel, nam nostrum harum?",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam placeat cupiditate corrupti tenetur possimus fugiat laudantium, eos odio sapiente labore, officia fuga nemo repudiandae accusantium explicabo saepe et sed omnis quas mollitia voluptas pariatur molestiae! Ad, non. Illum, sapiente mollitia. Animi laudantium rem, molestiae doloribus eligendi nemo. Veritatis odit optio nobis. Hic natus suscipit nobis possimus officiis consectetur dignissimos illum! Accusantium quo repellat aut commodi libero in earum laboriosam aperiam atque. Odio nihil dolor ea fuga consequuntur eius ipsum omnis incidunt ab molestias dignissimos, illo vel maxime exercitationem asperiores quis. Necessitatibus voluptate excepturi est delectus sit eius reiciendis, fugiat perferendis voluptatem. Magni ad dolore dignissimos voluptatum numquam reiciendis beatae labore corporis minus at ipsam vitae illo quae cum, excepturi odio repudiandae quaerat adipisci quas dolores incidunt sed earum fuga vero? Quasi tenetur facilis tempore delectus harum, earum officia alias dicta aliquid quis esse quaerat eius quisquam totam magnam ratione, in placeat nesciunt vero doloremque exercitationem cupiditate quibusdam laborum culpa? Praesentium rerum dolorum tenetur earum molestiae obcaecati qui nulla, autem eaque distinctio aspernatur impedit quas. Illo porro et quisquam accusantium laboriosam excepturi praesentium autem, ipsam dolorum ducimus beatae pariatur aliquam consectetur error at provident sequi expedita minima architecto numquam, ratione corporis!",
     date: "2022/01/12",
   },
   {
     id: 4,
-    title: "New Customer",
-    teaserText: "4Hmmmm maybe this works",
-    text: "Hmmmm maybe this works",
+    title: "Lorem ipsum",
+    teaserText:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis, aspernatur quibusdam ab, repellat modi sapiente natus perferendis deleniti, vel qui molestiae. Tempore quam, saepe, corrupti reiciendis quos cum rem quia eos ad molestiae accusantium impedit vel, nam nostrum harum?",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam placeat cupiditate corrupti tenetur possimus fugiat laudantium, eos odio sapiente labore, officia fuga nemo repudiandae accusantium explicabo saepe et sed omnis quas mollitia voluptas pariatur molestiae! Ad, non. Illum, sapiente mollitia. Animi laudantium rem, molestiae doloribus eligendi nemo. Veritatis odit optio nobis. Hic natus suscipit nobis possimus officiis consectetur dignissimos illum! Accusantium quo repellat aut commodi libero in earum laboriosam aperiam atque. Odio nihil dolor ea fuga consequuntur eius ipsum omnis incidunt ab molestias dignissimos, illo vel maxime exercitationem asperiores quis. Necessitatibus voluptate excepturi est delectus sit eius reiciendis, fugiat perferendis voluptatem. Magni ad dolore dignissimos voluptatum numquam reiciendis beatae labore corporis minus at ipsam vitae illo quae cum, excepturi odio repudiandae quaerat adipisci quas dolores incidunt sed earum fuga vero? Quasi tenetur facilis tempore delectus harum, earum officia alias dicta aliquid quis esse quaerat eius quisquam totam magnam ratione, in placeat nesciunt vero doloremque exercitationem cupiditate quibusdam laborum culpa? Praesentium rerum dolorum tenetur earum molestiae obcaecati qui nulla, autem eaque distinctio aspernatur impedit quas. Illo porro et quisquam accusantium laboriosam excepturi praesentium autem, ipsam dolorum ducimus beatae pariatur aliquam consectetur error at provident sequi expedita minima architecto numquam, ratione corporis!",
     date: "2022/01/12",
   },
   {
     id: 5,
-    title: "New Customer",
-    teaserText: "5Hmmmm maybe this works",
-    text: "Hmmmm maybe this works",
+    title: "Lorem ipsum",
+    teaserText:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis, aspernatur quibusdam ab, repellat modi sapiente natus perferendis deleniti, vel qui molestiae. Tempore quam, saepe, corrupti reiciendis quos cum rem quia eos ad molestiae accusantium impedit vel, nam nostrum harum?",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam placeat cupiditate corrupti tenetur possimus fugiat laudantium, eos odio sapiente labore, officia fuga nemo repudiandae accusantium explicabo saepe et sed omnis quas mollitia voluptas pariatur molestiae! Ad, non. Illum, sapiente mollitia. Animi laudantium rem, molestiae doloribus eligendi nemo. Veritatis odit optio nobis. Hic natus suscipit nobis possimus officiis consectetur dignissimos illum! Accusantium quo repellat aut commodi libero in earum laboriosam aperiam atque. Odio nihil dolor ea fuga consequuntur eius ipsum omnis incidunt ab molestias dignissimos, illo vel maxime exercitationem asperiores quis. Necessitatibus voluptate excepturi est delectus sit eius reiciendis, fugiat perferendis voluptatem. Magni ad dolore dignissimos voluptatum numquam reiciendis beatae labore corporis minus at ipsam vitae illo quae cum, excepturi odio repudiandae quaerat adipisci quas dolores incidunt sed earum fuga vero? Quasi tenetur facilis tempore delectus harum, earum officia alias dicta aliquid quis esse quaerat eius quisquam totam magnam ratione, in placeat nesciunt vero doloremque exercitationem cupiditate quibusdam laborum culpa? Praesentium rerum dolorum tenetur earum molestiae obcaecati qui nulla, autem eaque distinctio aspernatur impedit quas. Illo porro et quisquam accusantium laboriosam excepturi praesentium autem, ipsam dolorum ducimus beatae pariatur aliquam consectetur error at provident sequi expedita minima architecto numquam, ratione corporis!",
     date: "2022/01/12",
   },
 ];
